@@ -13,9 +13,12 @@ module ProjetJavaLpDevops {
     //dépendances tests io.netty
     requires io.netty.all;
     requires io.netty.transport;
+    requires io.netty.common;
+
 
 
     exports com.devops.loupgarou.client to javafx.graphics;
     exports com.devops.loupgarou.server to javafx.graphics;
+
 
 }
