@@ -10,6 +10,9 @@ module ProjetJavaLpDevops {
     requires javafx.controls;
     requires javafx.fxml;
 
+    //dépendances tests io.netty
+    requires io.netty.all;
+    requires io.netty.transport;
 
 
     exports com.devops.loupgarou.client to javafx.graphics;
