@@ -14,7 +14,8 @@ module ProjetJavaLpDevops {
     requires io.netty.all;
     requires io.netty.transport;
     requires io.netty.common;
-
+    requires io.netty.codec;
+    requires io.netty.buffer;
 
 
     exports com.devops.loupgarou.client to javafx.graphics;

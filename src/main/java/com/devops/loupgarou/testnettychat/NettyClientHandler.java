@@ -12,7 +12,8 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
-        System.out.println("Server : " + msg);
+
+        System.out.println(msg.toString());
     }
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
